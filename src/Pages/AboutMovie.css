@@ -1,0 +1,270 @@
+.imgdatail {
+    width: 1240px;
+    padding-top: 20px
+
+}
+
+.aboutflyerContainer
+{
+    display: flex;
+    gap: 20px;
+
+}
+
+headers{
+    width: 250px;
+    border: 2px solid rgb(166, 147, 147);
+    position: fixed;
+    height: 100vh;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.aboutlogo
+{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 24px   
+}
+
+.aboutlogo img
+{
+   padding-left: 20px;
+}
+
+.aboutlogo span
+{
+    font-size: 20px;
+}
+
+.aboutimgContainer
+{
+    position: relative;
+    left: 270px;
+}
+
+.aboutnavlink
+{
+   margin-top: 50px;
+   height: 300px;
+}
+
+
+
+h4
+{
+
+    color: black;
+    display: flex;
+    column-gap: 24px;  
+    width: 250px;
+    margin-left: -40px;
+    font-size: 20px;
+}
+.Link
+{
+    text-decoration: none;
+    color: black;
+}
+.Link1
+{
+    color: rgba(204, 5, 5, 0.944);
+    background: rgb(243, 200, 200);
+    text-decoration: none;
+}
+
+.moviecolor
+{
+    background: rgb(243, 200, 200); 
+}
+
+#icons
+{
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+.aboutstart
+{
+    border: 2px solid rgba(204, 5, 5, 0.944);
+    background: rgb(243, 200, 200);
+    width: 180px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+.aboutstart h3
+{
+    margin-left: 10px;
+    width: 165px;
+}
+
+.aboutstart p
+{
+    width: 165px;
+    margin-left: 10px;
+}
+
+#startBtn
+{
+    margin-left: 33px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    color: rgba(204, 5, 5, 0.944);
+    background: rgb(241, 177, 177);
+    font-size: 19px;
+    border: none;
+}
+
+.Btnabout
+{
+    width: 150px;
+    margin-top: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px; 
+}
+
+#iconsBtn
+{
+    height: 50px;
+    font-size:20px;
+    margin-left: 40px;
+}
+
+#logicon
+{
+    font-size: 25px;
+}
+
+.textdatail
+{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 1240px;
+    height: 150px;
+}
+
+.crimebox
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-left: -20px;
+    padding: 30px;
+    /* border: 2px solid black; */
+    height: 50px;
+}
+
+
+.textdatail h3
+{
+    margin-left: 10px;
+    width: 750px;
+    /* border: 2px solid; */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    /* background: rgb(243, 200, 200); */
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+#iconstar
+{
+    color: gold;
+}
+
+.textstar
+{
+    font-size: 20px;
+    margin-left: 179px;
+    /* border: 2px solid black; */
+    margin-top: 15px;
+}
+
+
+.Btntext
+{
+    /* margin-left: 50px; */
+    /* margin-bottom: 5px; */
+   
+    /* border-radius: 25px; */
+    /* */
+    /*  */
+    /* font-size: 19px; */
+    /* border: 2px solid; */
+}
+
+.Btntext h4
+{
+    text-align: center;
+}
+
+.iconsdatail
+{
+    /* border: 2px solid; */
+    width: 300px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Btntext
+{
+    /* border: 2px solid; */
+    width: 280px;
+    text-align: center;
+    margin-right: -30px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff; 
+    height: 40px;
+    background: rgba(204, 5, 5, 0.944);
+    /* margin-top: 22px; */
+}
+
+.Btntext1
+{
+    /* border: 2px solid; */
+    width: 280px;
+    text-align: center;
+    margin-right: -30px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+    background: rgb(241, 177, 177);
+    margin-top: 10px;
+}
+
+.aboutcard
+{
+    width: 950px;
+    position: relative;
+    top: -70px;
+}
+
+.aboutcard p
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.direccard
+{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.direccard span
+{
+    color: rgba(204, 5, 5, 0.944);
+}

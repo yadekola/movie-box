@@ -1,0 +1,15 @@
+.search-cont
+{
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.search-tn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: max-content;
+    width: 100%;
+}
+

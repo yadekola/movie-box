@@ -1,0 +1,47 @@
+.footerCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.footer{
+    margin-block: 50px;
+}
+
+.footericons {
+    display: flex;
+}
+
+.footera{
+    display: flex;
+    gap: 18px;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.footera a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.footera a:hover {
+    color: green;
+}
+
+.footer-info {
+    color: gray;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .footera {
+        display: flex;
+        gap: 10px;
+    }
+}
+    

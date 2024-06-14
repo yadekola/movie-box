@@ -1,0 +1,55 @@
+h2 {
+
+
+    padding-left: 100px;
+}
+
+.featured-cont {
+    padding-top: 80px;
+    /* margin-block: 80px; */
+}
+
+.movies-cont {
+    display: flex;
+}
+
+.movie-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    margin-block: 55px;
+}
+
+.ratings-card {
+    display: flex;
+    padding-inline: 10px;
+    justify-content: space-between;
+}
+
+.rating-card {
+    display: flex;
+    gap: 15px;
+    color: black;
+}
+
+.date{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgba(156, 163, 175, 1);
+}
+
+@media screen and (max-width: 600px) {
+    .movie-cont {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .people h2 {
+        align-self: center;
+    }
+}

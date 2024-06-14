@@ -1,0 +1,9 @@
+.profileimg {
+    width: 250px;
+}
+
+.peopleCont{
+ display: flex;
+ gap: 30px;
+ justify-content: center;
+}

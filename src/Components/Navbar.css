@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  /* margin-top: 10px; */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  color: white;
+}
